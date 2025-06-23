@@ -11,134 +11,50 @@ export const Page = styled.div`
   align-items: center;
   justify-content: center;
 
-  button,
-  input {
-    background-color: #dee8d8;
-    color: #333;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    outline: none;
+  .card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  .container {
-    width: 35%;
-    height: 65%;
-    background-color: #d3e0cb;
+  .h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
 
-    border-radius: 10px;
+  .div {
+    margin-bottom: 1rem;
 
-    .title {
-      width: 100%;
-      height: 10%;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      p {
-        font-size: 2rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin: 0;
-      }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #444;
     }
+  }
 
-    .subtitle {
-      width: 100%;
-      height: 10%;
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
 
-    .input {
-      width: 100%;
-      height: 10%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      input {
-        width: 50%;
-        height: 100%;
-        border-color: rgb(15, 77, 13);
-      }
-
-      input:focus {
-        outline: none;
-        border-color: rgb(15, 77, 13);
-      }
-    }
-
-    .buttons {
-      width: 100%;
-      height: 45%;
-
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-
-      .contentButton {
-        width: 25%;
-        height: 30%;
-        margin: 10px;
-
-        button {
-          width: 100%;
-          height: 100%;
-          font-size: 16px;
-          cursor: pointer;
-          border-color: rgb(15, 77, 13);
-        }
-
-        button:focus {
-          outline: none;
-          border-color: rgb(15, 77, 13);
-        }
-      }
-    }
-
-    .buttonConfirm {
-      width: 100%;
-      height: 15%;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      button {
-        width: 25%;
-        height: 70%;
-
-        border-color: rgb(15, 77, 13);
-      }
-    }
-
-    .return {
-      width: 100%;
-      height: 10%;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      p {
-        width: auto;
-        height: 40%;
-
-        color: #333;
-        padding: 5px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+    &:hover {
+      background-color: #45a049;
     }
   }
 `;
