@@ -5,7 +5,7 @@ export const Page = styled.div`
   height: 100vh;
   overflow: hidden;
   padding: 10px;
-  background: rgb(102, 129, 84);
+  background: rgb(2, 0, 50);
 
   display: flex;
   align-items: center;
